@@ -1,0 +1,23 @@
+.bt-hamburger-toggle{
+     --bt-size: 5rem;
+     --bt-padding:1rem;
+     height: var(--bt-size);
+     width: var(--bt-size);
+     position: relative;
+}
+.bt-hamburger-toggle > span,
+.bt-hamburger-toggle::before,
+.bt-hamburger-toggle::after{
+    content:'' ;
+    position: absolute;
+    left: var(--bt-padding);
+    right: var(--bt-padding);
+    height: 2px;
+    background-color: black;
+}
+.bt-hamburger-toggle::before{
+    top: var(--bt-padding);
+}
+.bt-hamburger-toggle::after{
+    bottom: var(--bt-padding);
+}
