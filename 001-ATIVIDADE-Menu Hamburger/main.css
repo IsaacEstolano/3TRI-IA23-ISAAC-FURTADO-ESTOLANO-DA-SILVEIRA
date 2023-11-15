@@ -1,6 +1,6 @@
 /* https://github.com/professor-varela/3TRI-IA23 */
 
-
+/*icons*/
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -121,8 +121,15 @@ footer {
 }
 
 body {
-    min-height: 100vh
+    min-height: 100vh;
+    background-image:url('scholar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
 }
+
 
 header {
     height: 200px;
