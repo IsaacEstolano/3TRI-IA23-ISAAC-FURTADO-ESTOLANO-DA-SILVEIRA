@@ -1,4 +1,13 @@
 /* https://github.com/professor-varela/3TRI-IA23 */
+body{
+    @font-face {
+        font-family: ;
+        src: url('OptimuspPrinceps.ttf');
+    }
+}
+
+
+
 
 /*icons*/
 .material-symbols-outlined {
@@ -113,21 +122,17 @@ body {
     scroll-behavior: smooth;
 }
 
-header,
-main,
-footer {
-    border: 2px solid red;
-    padding: 1rem;
-}
+
 
 body {
     min-height: 100vh;
-    background-image:url('scholar.jpg');
+    background-image:url('artorias2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     z-index: 1;
+    color:#FFF
 }
 
 
@@ -208,4 +213,15 @@ dialog:modal::backdrop {
 
 dialog {
     background-color: yellow;
+}
+h1{
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+    padding: 10px;
+    font-size: 200px;
+    
 }
