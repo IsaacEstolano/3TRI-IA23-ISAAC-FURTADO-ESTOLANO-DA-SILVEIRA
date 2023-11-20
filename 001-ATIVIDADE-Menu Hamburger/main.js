@@ -8,12 +8,15 @@ btHamburger.addEventListener("click", () => {
 
 // ----------------------------------------------------------------------------------
 
-const btDialog = document.querySelector(".bt-dialog")
-const btModal = document.querySelector(".bt-modal")
-const dialog = document.querySelector("dialog")
 
-btDialog.addEventListener("click", () => dialog.show())
-btModal.addEventListener("click", () => dialog.showModal())
+  const modal = document.getElementById('modal');
 
-document.querySelectorAll("dialog button").forEach(
-  bt => bt.addEventListener("click", () => dialog.close()))
+  // Função para abrir o modal
+  function abrirModal() {
+      modal.showModal();
+  }
+
+  // Função para fechar o modal
+  function fecharModal() {
+      modal.close();
+  }
