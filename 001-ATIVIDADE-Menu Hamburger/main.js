@@ -11,12 +11,13 @@ btHamburger.addEventListener("click", () => {
 
   const modal = document.getElementById('modal');
 
-  // Função para abrir o modal
   function abrirModal() {
       modal.showModal();
   }
 
-  // Função para fechar o modal
   function fecharModal() {
       modal.close();
   }
+
+ 
+

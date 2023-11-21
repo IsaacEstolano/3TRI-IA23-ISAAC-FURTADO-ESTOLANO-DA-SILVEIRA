@@ -90,9 +90,10 @@ nav.main-menu {
     overflow: auto;
 }
 
-nav.main-menu a {
+.main-menu a {
     display: block;
-    background-color: rgba(255 255 255 / .9);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     margin: 1rem;
     border-radius: 5px;
     padding: .5rem;
@@ -101,11 +102,11 @@ nav.main-menu a {
     display: flex;
     align-items: center;
     gap: .5em;
+    color:white
+
 }
 
-nav.main-menu a:visited {
-    color: gray;
-}
+
 
 nav.main-menu.opened {
     transform: translateX(0%);
@@ -172,6 +173,10 @@ dialog {
     margin-top: 10%;
 }
 
+
+
+
+
 p{
     font-size: 1.1em;
     line-height: 1.6;
@@ -179,13 +184,10 @@ p{
     padding: 0.4%;
     text-align: justify;
 }
-
-
-
-
-
-
-
+ a{
+    text-decoration: none;
+    color:rgb(201, 97, 27)
+}
 
 
 h1{
@@ -199,5 +201,4 @@ h1{
     font-size: 200px;
     
 }
-
 
